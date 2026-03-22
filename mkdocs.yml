@@ -28,7 +28,8 @@ theme:
 
 nav:
   - Home: index.md
-  - Docs:    
+  - Docs:
+    - Home: index.md
     - "SWF Modding":
       - "SWF Overveiw": SWFOverview.md
       - "Tutorials": swf/SWFTutorials.md

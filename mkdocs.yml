@@ -1,0 +1,7 @@
+site_name: Mewgenics Modding Documentation
+site_url: https://mewgenicsmoddingdocs
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: green

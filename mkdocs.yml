@@ -1,7 +1,56 @@
 site_name: Mewgenics Modding Documentation
 site_url: https://mewgenicsmoddingdocs
 theme:
-  name: material
-  palette:
-    scheme: slate
-    primary: green
+    name: material
+    custom_dir: overrides
+    features:
+        - search.suggest
+        - search.highlight
+        - search.share
+        - navigation.tabs
+        - navigation.instant
+        - navigation.top
+    icon:
+        repo: fontawesome/brands/github
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          toggle:
+            icon: material/weather-night
+            name: Switch to dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: amber
+          accent: amber
+          toggle:
+            icon: material/weather-sunny
+            name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Docs:
+    - Home: index.md
+    - "SWF Modding":
+      - "SWF Overveiw": SWFOverview.md
+      - "Tutorials": swf/SWFTutorials.md
+    - "Gon Modding":
+      - "Gon Overview": GONOverview.md
+      - "Tutorials": gon/GONTutorials.md
+  - SWF:
+    - Home: swf/home.md
+    - "Setup": swf/importandexporttutorial.md
+    - "Appendation": swf/appendation.md
+    - "Properties": swf/properties.md
+  - GON:
+    - Home: gon/home.md
+    - "Abilities":
+      - "Abilities": gon/abi_abilitieshome.md
+      - "Boss Abilities": gon/abi_bosscatabilities.md
+      - "Cat Abilities": gon/abi_catabilities.md
+      - "Enemy Abilities": gon/abi_enemyabilities.md
+
+copyright: "Copyright &copy; 2026 CVS-Otherwise-Callie (Discord: ia_svc)"
+repo_url: https://github.com/CVS-otherwise-Callie/mewgenics-modding-documents
+repo_name: CVS-otherwise-Callie/mewgenics-modding-documents
+edit_uri: edit/main/docs/
+use_directory_urls: False

@@ -5,7 +5,7 @@ Welcome to the Mewgenics Documentation website. This documentation plans to prov
 You can contribute in the github link provided **[:fontawesome-brands-github: here.](https://github.com/wofsauge/IsaacDocs)**
 
 Direct socials:
-This project is created by the members of **[:fontawesome-brands-discord: Frank's Mewtastic Workshop](https://discord.gg/NZS7TK4x4Z)**
-If you want to see a page or node created, or you see a error within a page, please create a issue **[:fontawesome-brands-github: here.](https://github.com/CVS-otherwise-Callie/mewgenics-modding-documents/issues)**
+This project is created by the members of **[Frank's Mewtastic Workshop](https://discord.gg/NZS7TK4x4Z)**
+If you want to see a page or node created, or you see a error within a page, please create a issue **[here.](https://github.com/CVS-otherwise-Callie/mewgenics-modding-documents/issues)**
 
 Documentation is still currently being created. Please be patient with the authors.

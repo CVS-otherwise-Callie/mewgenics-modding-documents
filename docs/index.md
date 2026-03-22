@@ -2,7 +2,7 @@
 
 Welcome to the Mewgenics Documentation website. This documentation plans to provide a thorough explanation of different vectors in Mewgenics modding, as well as examples and samples.
 
-You can contribute in the github link provided **[here.](https://github.com/wofsauge/IsaacDocs)**
+You can contribute in the github link provided **[here.](https://github.com/CVS-otherwise-Callie/mewgenics-modding-documents)**
 
 Direct socials:
 This project is created by the members of **[Frank's Mewtastic Workshop](https://discord.gg/NZS7TK4x4Z)**.

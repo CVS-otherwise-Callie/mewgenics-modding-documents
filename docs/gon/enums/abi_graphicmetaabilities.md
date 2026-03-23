@@ -1,7 +1,10 @@
 ---
 tags:
   - GON
+  - Graphic
+  - Enums
+  - Abilities
 ---
-# Enemy Abilities
+# Graphic - Abilities
 
 This page is currently under creation or awaiting editing.

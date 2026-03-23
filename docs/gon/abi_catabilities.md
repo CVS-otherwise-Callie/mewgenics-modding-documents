@@ -1,6 +1,6 @@
 ---
 tags:
-  - SWF
+  - GON
 ---
 # Cat Abilities
 

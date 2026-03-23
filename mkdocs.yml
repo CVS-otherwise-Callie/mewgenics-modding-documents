@@ -18,6 +18,15 @@ nav:
     - "Properties": swf/properties.md
   - GON:
     - Home: gon/home.md
+    - "Enums":
+      - "Ability (Meta) Enums": gon/enums/abi_metaabilities.md
+      - "Ability (Graphics) Enums": gon/enums/abi_graphicabilities.md
+      - "Ability (Sounds) Enums": gon/enums/abi_soundabilities.md
+      - "Ability (Cost) Enums": gon/enums/abi_costabilities.md
+      - "Ability (Target) Enums": gon/enums/abi_targetabilities.md
+      - "Ability (Damage) Enums": gon/enums/abi_damageabilities.md
+      - "Ability (Spawn) Enums": gon/enums/abi_spawnabilities.md
+      - "Elements": gon/enums/elements.md
     - "Abilities":
       - "Abilities": gon/abi_abilitieshome.md
       - "Boss Abilities": gon/abi_bosscatabilities.md

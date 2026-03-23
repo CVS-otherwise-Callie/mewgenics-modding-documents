@@ -1,6 +1,6 @@
 ---
 tags:
-  - SWF
+  - GON
 ---
 # Boss Abilities
 

@@ -1,7 +1,10 @@
 ---
 tags:
   - GON
+  - Cost
+  - Enums
+  - Abilities
 ---
-# Enemy Abilities
+# Cost - Abilities
 
 This page is currently under creation or awaiting editing.

@@ -26,7 +26,12 @@ nav:
       - "Ability (Target) Enums": gon/enums/abi_targetabilities.md
       - "Ability (Damage) Enums": gon/enums/abi_damageabilities.md
       - "Ability (Spawn) Enums": gon/enums/abi_spawnabilities.md
+      - "Abilities": gon/enums/abilities.md
+      - "AOE Restrictions": gon/enums/aoe_restrictions.md
       - "Elements": gon/enums/elements.md
+      - "Item Slots": gon/enums/itemslots.md
+      - "Restrictions": gon/enums/restrictions.md
+      - "Stats": gon/enums/stats.md
     - "Abilities":
       - "Abilities": gon/abi_abilitieshome.md
       - "Boss Abilities": gon/abi_bosscatabilities.md

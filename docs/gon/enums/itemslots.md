@@ -6,7 +6,7 @@ tags:
 ---
 # Item Slots
 
-| Name | Meaning | Type |
+| Name | Meaning |
 |:--|:--|
 | weapon | string |
 | head | string |

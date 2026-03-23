@@ -7,7 +7,7 @@ tags:
 # Stats
 
 | Name | Meaning | Type |
-|:--|:--|
+|:--|:--|:--|
 | str | Strength | string |
 | spd | Speed | string |
 | int | Intelligence | string |

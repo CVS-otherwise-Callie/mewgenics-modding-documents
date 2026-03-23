@@ -51,19 +51,17 @@ theme:
           toggle:
             icon: material/weather-sunny
             name: Switch to light mode
+plugins:
+  - search:
+      separator: '[\s\-\.\_\·]+'
+  - git-revision-date-localized
+  - tags:
+      tags_file: tags.md
 markdown_extensions:
   - toc
   - pymdownx.superfences
   - admonition
   - attr_list
-plugins:
-  - search:
-      separator: '[\s\-\.\_\·]+'
-  - git-revision-date-localized:
-      fallback_to_build_date: true
-      type: date
-  - tags:
-      tags_file: tags.md
 extra:
   social:
     - icon: fontawesome/brands/github

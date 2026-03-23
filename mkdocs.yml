@@ -37,6 +37,10 @@ nav:
       - "Boss Abilities": gon/abi_bosscatabilities.md
       - "Cat Abilities": gon/abi_catabilities.md
       - "Enemy Abilities": gon/abi_enemyabilities.md
+  - "Compile-Level Modding":
+    - Home: compile/home.md
+    - "Custom Status Effects": compile/customstatuses.md
+    - "Status Effect Pipeline": compile/statuspipeline.md
 
 theme:
     name: material

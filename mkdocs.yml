@@ -54,7 +54,9 @@ theme:
 plugins:
   - search:
       separator: '[\s\-\.\_\·]+'
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      type: date
   - tags:
       tags_file: tags.md
 markdown_extensions:

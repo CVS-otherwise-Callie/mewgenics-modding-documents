@@ -1,30 +1,5 @@
 site_name: Mewgenics Modding Documentation
 site_url: https://mewgenicsmoddingdocs
-theme:
-    name: material
-    custom_dir: overrides
-    features:
-        - search.suggest
-        - search.highlight
-        - search.share
-        - navigation.tabs
-        - navigation.instant
-        - navigation.top
-    icon:
-        repo: fontawesome/brands/github
-    palette:
-        - media: "(prefers-color-scheme: light)"
-          scheme: default
-          toggle:
-            icon: material/weather-night
-            name: Switch to dark mode
-        - media: "(prefers-color-scheme: dark)"
-          scheme: slate
-          primary: amber
-          accent: amber
-          toggle:
-            icon: material/weather-sunny
-            name: Switch to light mode
 
 nav:
   - Home: index.md
@@ -48,6 +23,65 @@ nav:
       - "Boss Abilities": gon/abi_bosscatabilities.md
       - "Cat Abilities": gon/abi_catabilities.md
       - "Enemy Abilities": gon/abi_enemyabilities.md
+
+theme:
+    name: material
+    custom_dir: overrides
+    features:
+        - search.suggest
+        - search.highlight
+        - search.share
+        - navigation.tabs
+        - navigation.instant
+        - navigation.top
+    icon:
+        repo: fontawesome/brands/github
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          primary: deep orange
+          accent: deep orange
+          toggle:
+            icon: material/weather-night
+            name: Switch to dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: deep orange
+          accent: deep orange
+          toggle:
+            icon: material/weather-sunny
+            name: Switch to light mode
+markdown_extensions:
+  - toc:
+      permalink: ⚓︎
+      toc_depth: 3
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      check_paths: true
+      url_download: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+plugins:
+  - search:
+      separator: '[\s\-\.\_\·]+'
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      type: date
+  - tags:
+      tags_file: tags.md
 
 copyright: "Copyright &copy; 2026 CVS-Otherwise-Callie (Discord: ia_svc)"
 repo_url: https://github.com/CVS-otherwise-Callie/mewgenics-modding-documents

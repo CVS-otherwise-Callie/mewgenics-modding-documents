@@ -44,34 +44,3 @@ jobs:
                    pip install mike
                    pip install mkdocs-git-revision-date-plugin
                    pip install mkdocs-git-revision-date-localized-plugin
-                   
-            - name: Deploy Repentance Docs
-              if:   github.event_name == 'push' && github.ref == 'refs/heads/main'
-              run: |
-                   mike delete rep
-                   mike deploy rep Repentance -t Repentance -p
-                   mike set-default rep
-                   
-            - name: Checkout AB+ Repo
-              if:   github.event_name == 'push' && github.ref == 'refs/heads/ab_plus'
-              uses: actions/checkout@v2
-              with:
-                  fetch-depth: 0
-                  ref: ab_plus
-            - name: Deploy AB+ Docs
-              if:   github.event_name == 'push' && github.ref == 'refs/heads/ab_plus'
-              run: |
-                   mike delete abp
-                   mike deploy abp Afterbirth+ -t Afterbirth+ -p
-
-            - name: Copy old ab+ docs and index.html
-              if:   github.event_name == 'push' && github.ref == 'refs/heads/old_docs'
-              uses: andstor/copycat-action@v3
-              with:
-                  personal_token: ${{ secrets.PERSONAL_TOKEN }}
-                  src_path: /.
-                  dst_owner: wofsauge
-                  dst_repo_name: IsaacDocs
-                  src_branch: old_docs
-                  dst_branch: gh-pages
-                  commit_message: Updated original ab+ Docs

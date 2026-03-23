@@ -12,7 +12,7 @@ It is highly recommended to put your abilities in a abilities folder.
 
 ## Setup
 
-Abilities are constructed like a .gon objects. For what that means, read **[here.](https://cvs-otherwise-callie.github.io/mewgenics-modding-documents/GONOverview.html)**. 
+Abilities are constructed like a .gon objects. For what that means, read **[here.](https://cvs-otherwise-callie.github.io/mewgenics-modding-documents/GONOverview.html)**
 
 Here are the enums of a ability.
 

@@ -52,21 +52,9 @@ theme:
             icon: material/weather-sunny
             name: Switch to light mode
 markdown_extensions:
-  - pymdownx.highlight:
-      linenums: true
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.inlinehilite
-  - pymdownx.snippets:
-      check_paths: true
-      url_download: true
+  - toc
+  - pymdownx.superfences
   - admonition
-  - pymdownx.details
-  - pymdownx.tabbed:
-      alternate_style: true
   - attr_list
 plugins:
   - search:

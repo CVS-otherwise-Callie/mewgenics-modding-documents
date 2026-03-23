@@ -51,7 +51,56 @@ theme:
           toggle:
             icon: material/weather-sunny
             name: Switch to light mode
-
+markdown_extensions:
+  - toc:
+      permalink: ⚓︎
+      toc_depth: 3
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      check_paths: true
+      url_download: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+plugins:
+  - search:
+      separator: '[\s\-\.\_\·]+'
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      type: date
+  - tags:
+      tags_file: tags.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CVS-otherwise-Callie/mewgenics-modding-documents
+      name: "Mewgenics Modding Wiki on Github"
+  version:
+    provider: mike
+    default: rep
+  analytics:
+    provider: google
+    property: G-ZBKP3LLT96
+extra_css:
+    - css/custom.css
+extra_javascript:
+    - https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js
+    - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+    - js/tablesort.number.min.js
+    - js/customJS.js
+    - js/jquery.mark.min.js
 copyright: "Copyright &copy; 2026 CVS-Otherwise-Callie (Discord: ia_svc)"
 repo_url: https://github.com/CVS-otherwise-Callie/mewgenics-modding-documents
 repo_name: CVS-otherwise-Callie/mewgenics-modding-documents

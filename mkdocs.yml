@@ -51,18 +51,6 @@ theme:
           toggle:
             icon: material/weather-sunny
             name: Switch to light mode
-markdown_extensions:
-
-  - pymdownx.details
-
-plugins:
-  - search:
-      separator: '[\s\-\.\_\·]+'
-  - git-revision-date-localized:
-      fallback_to_build_date: true
-      type: date
-  - tags:
-      tags_file: tags.md
 
 copyright: "Copyright &copy; 2026 CVS-Otherwise-Callie (Discord: ia_svc)"
 repo_url: https://github.com/CVS-otherwise-Callie/mewgenics-modding-documents

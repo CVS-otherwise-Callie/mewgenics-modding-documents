@@ -6,15 +6,15 @@ tags:
 ---
 # Stats
 
-| Name | Meaning | Type |
-|:--|:--|:--|
-| str | Strength | string |
-| spd | Speed | string |
-| int | Intelligence | string |
-| cha | Charisma | string |
-| con | Constitution | string |
-| dex | Dexterity | string |
-| lck | Luck | string |
+| Name | Long name |
+|:--|:--|
+| str | Strength |
+| spd | Speed |
+| int | Intelligence |
+| cha | Charisma |
+| con | Constitution |
+| dex | Dexterity |
+| lck | Luck |
 
 todo: add description of effects
 todo: add example of usage

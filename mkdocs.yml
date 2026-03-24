@@ -19,24 +19,24 @@ nav:
   - GON:
     - Home: gon/home.md
     - "Enums":
-      - "Ability (Meta) Enums": gon/enums/abi_metaabilities.md
-      - "Ability (Graphics) Enums": gon/enums/abi_graphicabilities.md
-      - "Ability (Sounds) Enums": gon/enums/abi_soundabilities.md
-      - "Ability (Cost) Enums": gon/enums/abi_costabilities.md
-      - "Ability (Target) Enums": gon/enums/abi_targetabilities.md
-      - "Ability (Damage) Enums": gon/enums/abi_damageabilities.md
-      - "Ability (Spawn) Enums": gon/enums/abi_spawnabilities.md
-      - "Abilities": gon/enums/abilities.md
-      - "AOE Restrictions": gon/enums/aoe_restrictions.md
-      - "Elements": gon/enums/elements.md
-      - "Item Slots": gon/enums/itemslots.md
-      - "Restrictions": gon/enums/restrictions.md
-      - "Stats": gon/enums/stats.md
+      - "Misc":
+        - "Elements": gon/enums/elements.md
+        - "Item Slots": gon/enums/itemslots.md
+        - "Stats": gon/enums/stats.md 
+      - "Ability":
+        - "AOE Restrictions": gon/enums/aoe_restrictions.md
+        - "Restrictions": gon/enums/restrictions.md
+        - "X is": gon/enums/abi_xis.md
     - "Abilities":
       - "Abilities": gon/abi_abilitieshome.md
-      - "Boss Abilities": gon/abi_bosscatabilities.md
-      - "Cat Abilities": gon/abi_catabilities.md
-      - "Enemy Abilities": gon/abi_enemyabilities.md
+      - "Abilities Meta": gon/abilities/meta.md
+      - "Abilities Graphics": gon/abilities/graphics.md
+      - "Abilities Sounds": gon/abilities/sounds.md
+      - "Abilities Cost": gon/abilities/cost.md
+      - "Abilities Target": gon/abilities/target.md
+      - "Abilities damage": gon/abilities/damage.md
+      - "Abilities spawn": gon/abilities/spawn.md
+
   - "Compile-Level Modding":
     - Home: compile/home.md
     - "Custom Status Effects": compile/customstatuses.md

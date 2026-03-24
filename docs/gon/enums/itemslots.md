@@ -6,14 +6,14 @@ tags:
 ---
 # Item Slots
 
-| Name | Meaning |
+| Name | Description |
 |:--|:--|
-| weapon | string |
-| head | string |
-| neck | string |
-| face | string |
-| trinket | string |
-| random_empty_armor | string |
+| weapon |  |
+| head |  |
+| neck |  |
+| face |  |
+| trinket |  |
+| random_empty_armor | used in crafting |
 
 todo: add description of effects
 todo: add example of usage

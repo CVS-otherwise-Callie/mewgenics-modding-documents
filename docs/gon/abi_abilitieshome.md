@@ -5,7 +5,7 @@ tags:
 ---
 # Abilties
 
-Abilities are active moves a character can do. Abilities are designated to **[player cats](/gon/abi_catabilities.html)**, **[enemies](/gon/abi_enemyabilities.html)**, and **[bosses](gon/abi_bosscatabilities.html)**.
+Abilities are active moves a character can do. Abilities are designated to **[player cats](/gon/abi_catabilities.html)**, **[enemies](/gon/abi_enemyabilities.html)**, and **[bosses](/gon/abi_bosscatabilities.html)**.
 
 Because abilities are called by their name and are not file-specific, ability files can be named whatever.
 It is highly recommended to put your abilities in a abilities folder.

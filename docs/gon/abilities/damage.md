@@ -23,4 +23,4 @@ tags:
 | force_play_hit_animation | bool | If the ability forces the target to play it's hit animation |
 | disallow_modifications | bool | [TEST] |
 | layer | layer name | On what entity layer this ability effects are applied [self, characters, pickups, gas, all] |
-| elements | [[element]](https://cvs-otherwise-callie.github.io/mewgenics-modding-documents/gon/abilities/elements.md) | The element of the ability |
+| elements | [[element]](/gon/enums/elements.html) | The element of the ability |

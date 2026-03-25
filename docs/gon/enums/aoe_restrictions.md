@@ -2,26 +2,25 @@
 tags:
   - GON
   - Enums
-  - AOE
-  - Restrictions
+  - Abilities
 ---
-# AOE Restrictions
+# AOE Restrictions - Abilities
 
-| Name | Type |
+| Name | Description |
 |:--|:--|
-| none | string |
-| must_be_empty | string |
-| must_have_tag | string |
-| must_have_line_of_sight_unpurgable | string |
-| must_have_line_of_sight | string |
-| must_have_animate_character | string |
-| must_not_have_corpse | string |
-| must_have_low_health_character exclude_blocking | string |
-| exclude_direct_target familiars_only | string |
-| enemies_only | string |
-| character_must_be_affected_by_tile_with_element | string |
-| checker_parity_even | string |
-| allies_only | string |
+| none | TODO |
+| must_be_empty | TODO |
+| must_have_tag | TODO |
+| must_have_line_of_sight_unpurgable | TODO |
+| must_have_line_of_sight | TODO |
+| must_have_animate_character | TODO |
+| must_not_have_corpse | TODO |
+| must_have_low_health_character exclude_blocking | TODO |
+| exclude_direct_target familiars_only | TODO |
+| enemies_only | TODO |
+| character_must_be_affected_by_tile_with_element | TODO |
+| checker_parity_even | TODO |
+| allies_only | TODO |
 
 
 todo: add description of effects

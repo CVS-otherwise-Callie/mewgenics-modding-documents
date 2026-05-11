@@ -3,6 +3,9 @@ tags:
   - SWF
   - File
 ---
+
+###### This article is a subsection of [abilities.](GON_ABI_abilitieshome.md)
+
 # Player Cat Abilities
 
 This article exists only to document each ability for player cats.

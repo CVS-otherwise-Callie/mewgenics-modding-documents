@@ -36,54 +36,59 @@ We've split up the files of Abilities into 3 tables.
 
 ???+ info "Allies / Classes"
 
-  These do not include passives.
+  ```md
+    These do not include passives.
 
-  | .GON Name | Implement/Purpose |
-  |:--|:--|
-  | butcher_abilities | Butcher's abilities. |
-  | colorless_abilities | Colorless abilities. |
-  | druid_abilities | Druid's abilities. |
-  | fighter_abilities | Melee's abilities. |
-  | hunter_abilities | Hunter's abilities. |
-  | jester_abilities | Jester's abilities. |
-  | mage_abilities | Mage's abilities. |
-  | medic_abilities | Cleric's abilities. |
-  | monk_abilities | Monk's abilities. |
-  | necromancer_abilities | Necromancer's abilities. |
-  | psychic_abilities | Psychic's abilities. |
-  | tank_abilities | Tank's abilities. |
-  | theif_abilities | Theif's abilities. |
-  | Tinkerer | Tinkerer's abilities. |
+    | .GON Name | Implement/Purpose |
+    |:--|:--|
+    | butcher_abilities | Butcher's abilities. |
+    | colorless_abilities | Colorless abilities. |
+    | druid_abilities | Druid's abilities. |
+    | fighter_abilities | Melee's abilities. |
+    | hunter_abilities | Hunter's abilities. |
+    | jester_abilities | Jester's abilities. |
+    | mage_abilities | Mage's abilities. |
+    | medic_abilities | Cleric's abilities. |
+    | monk_abilities | Monk's abilities. |
+    | necromancer_abilities | Necromancer's abilities. |
+    | psychic_abilities | Psychic's abilities. |
+    | tank_abilities | Tank's abilities. |
+    | theif_abilities | Theif's abilities. |
+    | Tinkerer | Tinkerer's abilities. |
+  ```
 
 
 ???+ info "Enemies"
 
-  | .GON Name | Implement/Purpose |
-  |:--|:--|
-  | finalboss_abilities | The Creator's abilities / attacks. |
-  | guillotina_abilities | Guillotina's abilities / attacks. |
-  | kaiju_abilities | Both kaiju's abilities / attacks. |
-  | rifthead_abilities | Soach's abilities. |
-  | special_enemy_abilities | Every non-boss's ability. This basically contains every enemy ability in the game. |
-  | throbbing_king_abilities | Throbbing King's abilities. |
+  ```md
+    | .GON Name | Implement/Purpose |
+    |:--|:--|
+    | finalboss_abilities | The Creator's abilities / attacks. |
+    | guillotina_abilities | Guillotina's abilities / attacks. |
+    | kaiju_abilities | Both kaiju's abilities / attacks. |
+    | rifthead_abilities | Soach's abilities. |
+    | special_enemy_abilities | Every non-boss's ability. This basically contains every enemy ability in the game. |
+    | throbbing_king_abilities | Throbbing King's abilities. |
+  ```
 
 ???+ info "Misc / Neither"
 
-  | .GON Name | Implement/Purpose |
-  |:--|:--|
-  | abilities | Provides a basic ability template. Do not use. |
-  | armor_abilities | Abilities specifically set from armor. |
-  | basic_attacks | Sets up basic cat attacks. |
-  | basic_movement | Sets up basic movement styles and abilities. |
-  | consumable_item_abilities | "Abilities" - effects for each consumable. |
-  | contextual_abilities | Specific abilities for when the player is under a certain status, like trapped or short circuited. |
-  | disorder_abilities | Sets up abilities unique to disorders. |
-  | event_abilities | Despite the name, these are not abilities from events. Instead, these are used for certain in-battle events, such as rocks falling in the Caves. |
-  | item_abilities | Each item's abilities. Weapons, consumables, and head, neck, and face pieces. Base position for AOE usually starts at cat wearing it. |
-  | misc_abilities | These are a collection of random abilities too small to meet requirements as a actual ability. I.e. "Move One", "Form Shrink Two", "Do Nothing". |
-  | test_abilities | Seems to be a mishmash of unused, half-formed, or unfinished versions of actual abilities. |
-  | util_abilities | Contains the basic attack for each class. |
-
+  ```md
+    | .GON Name | Implement/Purpose |
+    |:--|:--|
+    | abilities | Provides a basic ability template. Do not use. |
+    | armor_abilities | Abilities specifically set from armor. |
+    | basic_attacks | Sets up basic cat attacks. |
+    | basic_movement | Sets up basic movement styles and abilities. |
+    | consumable_item_abilities | "Abilities" - effects for each consumable. |
+    | contextual_abilities | Specific abilities for when the player is under a certain status, like trapped or short circuited. |
+    | disorder_abilities | Sets up abilities unique to disorders. |
+    | event_abilities | Despite the name, these are not abilities from events. Instead, these are used for certain in-battle events, such as rocks falling in the Caves. |
+    | item_abilities | Each item's abilities. Weapons, consumables, and head, neck, and face pieces. Base position for AOE usually starts at cat wearing it. |
+    | misc_abilities | These are a collection of random abilities too small to meet requirements as a actual ability. I.e. "Move One", "Form Shrink Two", "Do Nothing". |
+    | test_abilities | Seems to be a mishmash of unused, half-formed, or unfinished versions of actual abilities. |
+    | util_abilities | Contains the basic attack for each class. |
+  ```
 
 
 
@@ -103,35 +108,40 @@ These are the entities of the game, what you see when you open up a battle.
 
 ???+ info "Allies"
 
-  | .GON Name | Implement/Purpose |
-  |:--|:--|
-  | druid_friends | Crow, Squirrel, etc. |
-  | familiars | Maggots, pooters, etc. Most of these are variants of enemies. |
-  | player_cat | Constitutes the base player cat, shade cat, etc |
-  | rare_cat_tests | Constitutes the look for rare enemy cats; Pigs, Dog, Tyler, Sonichu, etc |
-  |  |  |
+  ```md
+    | .GON Name | Implement/Purpose |
+    |:--|:--|
+    | druid_friends | Crow, Squirrel, etc. |
+    | familiars | Maggots, pooters, etc. Most of these are variants of enemies. |
+    | player_cat | Constitutes the base player cat, shade cat, etc |
+    | rare_cat_tests | Constitutes the look for rare enemy cats; Pigs, Dog, Tyler, Sonichu, etc |
+  ```
 
 ???+ info "Enemies"
 
-  | .GON Name | Implement/Purpose |
-  |:--|:--|
-  | bosses | Boss enemies. |
-  | cat_enemies | Because most cat-shaped enemies use the same system for appearance that player cats use, the game places them in this file to read their meta differently. |
-  | cat_minibosses | Same applies as cat_enemies. |
-  | enemies | All non-cat, non-small enemies. |
-  | guillotina | Guillotina's AI. |
-  | rifthead | Soach's AI. |
-  | small_enemies | Small enemy AI, like Dips and Maggots. |
-  | terminator | Both C-800 and C-1000's AI. |
-  | throbbing_king | Throbbing King's AI. |
+  ```md
+    | .GON Name | Implement/Purpose |
+    |:--|:--|
+    | bosses | Boss enemies. |
+    | cat_enemies | Because most cat-shaped enemies use the same system for appearance that player cats use, the game places them in this file to read their meta differently. |
+    | cat_minibosses | Same applies as cat_enemies. |
+    | enemies | All non-cat, non-small enemies. |
+    | guillotina | Guillotina's AI. |
+    | rifthead | Soach's AI. |
+    | small_enemies | Small enemy AI, like Dips and Maggots. |
+    | terminator | Both C-800 and C-1000's AI. |
+    | throbbing_king | Throbbing King's AI. |
+  ```
 
 
 ???+ info "Neither / Misc"
 
-  | .GON Name | Implement/Purpose |
-  |:--|:--|
-  | bonus_birds | Neutral bird enemies. |
-  | inanimate_objects | Ice blocks, gas clouds, bombs, tumor (grid), poops, Gambit's die, etc. |
-  | pickups | While what a pickup does is defined in abilities, it's entity is defined here. It's ability is in the passive table. |
-  | test_enemies | Half-baked test enemies. Has "Spear Guy" and "Dummy". |
-  | world_event_specials | Any part of the world that is added or altered from external AI (like a enemy); i.e. DeadPinky, AlienEgg, SeducedBoulder etc. |
+  ```md
+    | .GON Name | Implement/Purpose |
+    |:--|:--|
+    | bonus_birds | Neutral bird enemies. |
+    | inanimate_objects | Ice blocks, gas clouds, bombs, tumor (grid), poops, Gambit's die, etc. |
+    | pickups | While what a pickup does is defined in abilities, it's entity is defined here. It's ability is in the passive table. |
+    | test_enemies | Half-baked test enemies. Has "Spear Guy" and "Dummy". |
+    | world_event_specials | Any part of the world that is added or altered from external AI (like a enemy); i.e. DeadPinky, AlienEgg, SeducedBoulder etc. |
+  ```

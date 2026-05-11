@@ -70,18 +70,6 @@ h3[aria-label$='DLL'] {
 }
 
 
-h3[aria-label$='GON'],
-h3[aria-label$='SWF'],
-h3[aria-label$='TOOL'],
-h3[aria-label$='DLL'] {
-    border-radius: 0px 5px 5px 5px;
-    padding: 2px 10px;
-    margin: 0 !important;
-    font-weight: 400 !important;
-    font-family: "Roboto Mono", SFMono-Regular, Consolas, Menlo, monospace;
-    font-size: .85em;
-}
-
 h4[aria-label$='GON'] {
     background-color: var(--gonobjects-color-light);
 }
@@ -431,11 +419,9 @@ div[data-md-component$="announce"] {
 /*** Search result coloring ***/
 
 .searchGON .md-search-result__article::before,
-.searchEnum .md-search-result__article::before,
 .searchSWF .md-search-result__article::before,
 .searchDLL .md-search-result__article::before,
-.searchTools .md-search-result__article::before,
-.searchTutorial .md-search-result__article::before {
+.searchTOOL .md-search-result__article::before {
     content: "";
     float: left;
     padding: 0 0.4rem;

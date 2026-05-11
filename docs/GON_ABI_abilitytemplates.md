@@ -90,3 +90,176 @@ Anywhere iside the ability structure variables can be used to make certain stats
 | dex | int | The character's dexterity |
 | lck | int | The character's luck |
 | X | int | Value based on what is put in X_is |
+
+## Ability Templates
+
+### template_move () {: aria-label='GON' }
+
+Basic template for moving to a tile.
+
+???- example template_move Code
+    ```txt
+        template_move {
+            class MoveAbility
+
+            meta {
+                type_icon "movement"
+                is_move true
+            }
+            
+            cost {
+                move_points 1
+                act_points 0
+            }
+
+            graphics {
+                use_super_armor false
+            }
+            
+            target { 
+                target_mode tile  //tile, direction, none
+                
+                range_mode ground_move
+                min_range 0
+                max_range mov
+                
+                aoe_mode occupied_tiles
+                min_aoe 0
+                max_aoe 0
+                
+                range_display_include_character_size true
+                
+                restrictions [must_be_moveable must_move]
+            }
+            
+        }
+    ```
+
+### template_teleport () {: aria-label='GON' }
+
+Basic template for teleporting to a tile.
+
+???- example template_teleport Code
+    ```txt
+        template_teleport {
+            class TeleportAbility
+
+            meta {
+                type_icon "movement"
+                is_move auto
+            }
+            
+            cost {
+                move_points 1
+                act_points 0
+            }
+
+            graphics {
+                use_super_armor false
+            }
+
+            target { 
+                target_mode tile  //tile, direction, none
+                
+                range_mode standard
+                min_range 1
+                max_range mov
+                
+                aoe_mode occupied_tiles
+                min_aoe 0
+                max_aoe 0
+                
+                range_display_include_character_size true
+                
+                restrictions must_be_moveable
+            }
+        }
+    ```
+
+### template_swap () {: aria-label='GON' }
+
+Basic template for swapping with an entity on a tile.
+
+???- example template_swap Code
+    ```txt
+        template_swap {
+            class SwapperAbility
+
+            meta {
+                type_icon "movement"
+            }
+            
+            cost {
+                move_points 1
+                act_points 0
+            }
+
+            graphics {
+                use_super_armor false
+            }
+            
+            target { 
+                target_mode tile  //tile, direction, none
+                
+                range_mode standard
+                min_range 1
+                max_range mov
+                
+                aoe_mode occupied_tiles
+                min_aoe 0
+                max_aoe 0
+                
+                range_display_include_character_size true
+                
+                restrictions must_be_swappable
+            }
+            
+        }
+    ```
+
+### template_melee_attack () {: aria-label='GON' }
+
+Basic template for attacking a tile.
+
+???- example template_melee_attack Code
+    ```txt
+        template_melee_attack {
+            class MeleeAttackAbility
+            graphics {
+                animation Default
+            }
+            
+            cost {
+                move_points 0
+                act_points 1
+            }
+            
+            target { 
+                target_mode direction  //tile, direction, none
+                
+                aoe_mode line //standard, line, cross, custom
+                min_aoe 1
+                max_aoe 1
+                
+                aoe_considers_character_size true
+                aoe_excludes_self true
+
+                knockback_mode character_to_tile
+            }
+            
+            damage_instance {
+                damage 5+bonus_melee_damage
+                type melee
+                incidentally_collects_pickups true
+            }
+        }
+    ```
+
+### template_move () {: aria-label='GON' }
+
+Basic template for moving to a tile.
+
+???- example template_move Code
+    ```txt
+        
+    ```

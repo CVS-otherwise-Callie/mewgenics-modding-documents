@@ -2,45 +2,43 @@ site_name: Mewgenics Modding Documentation
 site_url: https://mewgenicsmoddingdocs
 
 nav:
-  - Home: index.md
+  - Home: _index.md
   - Docs:
-    - Home: index.md
-    - "SWF Modding":
-      - "SWF Overveiw": SWFOverview.md
-      - "Tutorials": swf/SWFTutorials.md
-    - "Gon Modding":
-      - "Gon Overview": GONOverview.md
-      - "Tutorials": gon/GONTutorials.md
-  - SWF:
-    - Home: swf/home.md
-    - "Setup": swf/importandexporttutorial.md
-    - "Appendation": swf/appendation.md
-    - "Properties": swf/properties.md
+    - Home: _index.md
+    - "Getting Started": _index_gettingstarted.md
+    - "Commands": _index_commands.md
+    - "GON Overview": GONOverview.md
+    - "SWF Overview": SWFOverview.md
   - GON:
-    - Home: gon/home.md
+    - Home: GON_home.md
     - "Enums":
-      - "Misc":
-        - "Elements": gon/enums/elements.md
-        - "Item Slots": gon/enums/itemslots.md
-        - "Stats": gon/enums/stats.md 
-      - "Ability":
-        - "AOE Restrictions": gon/enums/aoe_restrictions.md
-        - "Restrictions": gon/enums/restrictions.md
-        - "X is": gon/enums/abi_xis.md
+        - "Abilities":
+          - "AOE Restrictions": GON_enums_abilities_aoe_restrictions.md
+          - "Cost": GON_enums_abilities_cost.md
+          - "Item Slots": GON_enums_abilities_itemslots.md
+          - "Restrictions": GON_enums_restrictions_cost.md
+          - "Sounds": GON_enums_sounds.md
+        - "Meta": 
+          - "Elements": GON_enums_meta_elements.md
+          - "Stats": GON_enums_stats.md
+        - "Shared":
+          - "Damage": GON_enums_shared_damage.md
+          - "Graphics": GON_enums_shared_graphics.md
+          - "Meta": GON_enums_shared_meta.md
+          - "Spawn": GON_enums_shared_spawn.md
+          - "Target": GON_enums_shared_target.md
     - "Abilities":
-      - "Abilities": gon/abi_abilitieshome.md
-      - "Abilities Meta": gon/abilities/meta.md
-      - "Abilities Graphics": gon/abilities/graphics.md
-      - "Abilities Sounds": gon/abilities/sounds.md
-      - "Abilities Cost": gon/abilities/cost.md
-      - "Abilities Target": gon/abilities/target.md
-      - "Abilities damage": gon/abilities/damage.md
-      - "Abilities spawn": gon/abilities/spawn.md
-
-  - "Compile-Level Modding":
-    - Home: compile/home.md
-    - "Custom Status Effects": compile/customstatuses.md
-    - "Status Effect Pipeline": compile/statuspipeline.md
+      - "Abilities": GON_ABI_abilitieshome.md
+  - SWF:
+    - Home: SWF_home.md
+    - "Appendation": SWF_appendation.md
+  - Tools:
+    - Home: TOOLS_home.md
+    - "Templates": TOOLS_templates.md
+  - DLL:
+    - Home: DLL_home.md
+    - "Custom Status Effects": DLL_customstatuses.md
+    - "Status Effect Pipeline": DLL_statuspipeline.md
 
 theme:
     name: material

@@ -27,6 +27,13 @@ There are two major important settings that MUST be turned off for the FLA's pub
 Both strict settings and compress settings make the movie unreadable to the game. Therefore, they must be turned off.
 
 To turn it off, first open the tab "file".
+
+
+
+
+
+
+
 ![File](_images/flashtutorial_file_folder.png)
 
 Go to "Actionscript Settings", and turn OFF strict settings.

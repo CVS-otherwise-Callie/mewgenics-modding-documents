@@ -20,5 +20,7 @@ i.e.
 
 ???+ code
     For example:
-    `Furniture -> _Append_Furniture`
-    `modular_cutscenes_fla.BossArt_3 -> _Append_modular_cutscenes_fla.BossArt_3`
+    ```txt
+    Furniture -> _Append_Furniture                                       
+    modular_cutscenes_fla.BossArt_3 -> _Append_modular_cutscenes_fla.BossArt_3
+    ```

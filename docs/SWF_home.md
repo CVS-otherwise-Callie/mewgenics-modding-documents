@@ -25,6 +25,8 @@ This applies to:
 - TODO
 
 ![Example](_images/gonswfdep_call.png)
+
+
 (A wooly mammoth's AI calls upon the moviescript "Mammoth")
 
 ## Moviescript Reliance
@@ -42,6 +44,8 @@ To add these as custom swfs, a seperate and custom file must have a moviescript 
 ![Example](_images/gonswfdep_mvrely1.png)
 
 ![Example](_images/gonswfdep_mvrely2.png)
+
+
 (The name is created from the frame name in the Labels Layer layer, and used later to apply stats to it)
 
 ## Frame Reliance

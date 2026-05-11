@@ -387,7 +387,19 @@ div[data-md-component$="announce"] {
 }
 
 .contentTable tr[aria-label$='GON'] {
-    background-color: var(--function-overview-bg-color);
+    background-color: var(--gonobjects-color);
+}
+
+.contentTable tr[aria-label$='SWF'] {
+    background-color: var(--swfobjects-color);
+}
+
+.contentTable tr[aria-label$='TOOL'] {
+    background-color: var(--toolobjects-color);
+}
+
+.contentTable tr[aria-label$='DLL'] {
+    background-color: var(--dllobjects-color);
 }
 
 .overviewHeader {
@@ -416,6 +428,7 @@ div[data-md-component$="announce"] {
     transform: rotate(-90deg);
 }
 
+/*** Search result coloring ***/
 
 .searchGON .md-search-result__article::before,
 .searchEnum .md-search-result__article::before,
@@ -432,41 +445,41 @@ div[data-md-component$="announce"] {
     color: var(--constructor-color);
 }
 
-.searchClass .md-search-result__icon {
+.searchGON .md-search-result__icon {
     color: var(--gonobjects-color);
 }
 
-.searchClass .md-search-result__article::before {
+.searchGON .md-search-result__article::before {
     content: "GON";
     padding: 0pt 2pt;
     color: var(--gonobjects-color);
 }
 
-.searchEnum .md-search-result__icon {
+.searchSWF .md-search-result__icon {
     color: var(--swfobjects-color);
 }
 
-.searchClass .md-search-result__article::before {
+.searchSWF .md-search-result__article::before {
     content: "SWF";
     padding: 0pt 2pt;
     color: var(--swfobjects-color);
 }
 
-.searchEnum .md-search-result__icon {
+.searchTOOL .md-search-result__icon {
     color: var(--toolobjects-color);
 }
 
-.searchClass .md-search-result__article::before {
+.searchTOOL .md-search-result__article::before {
     content: "TOOL";
     padding: 0pt 2pt;
     color: var(--toolobjects-color);
 }
 
-.searchEnum .md-search-result__icon {
+.searchDLL .md-search-result__icon {
     color: var(--dllobjects-color);
 }
 
-.searchClass .md-search-result__article::before {
+.searchDLL .md-search-result__article::before {
     content: "DLL";
     padding: 0pt 2pt;
     color: var(--dllobjects-color);

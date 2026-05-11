@@ -27,14 +27,16 @@ nav:
           - "Meta": GON_enums_shared_meta.md
           - "Spawn": GON_enums_shared_spawn.md
           - "Target": GON_enums_shared_target.md
-    - "Abilities":
-      - "Abilities": GON_ABI_abilitieshome.md
+    - "Abilities": GON_ABI_abilitieshome.md
+    - "Ability Templates": GON_ABI_abilitytemplates.md
   - SWF:
     - Home: SWF_home.md
     - "Appendation": SWF_appendation.md
   - Tools:
     - Home: TOOLS_home.md
-    - "Templates": TOOLS_templates.md
+    - "Templates": 
+      - "GON": TOOLS_gontemplates.md
+      - "FLA": TOOLS_flatemplates.md
   - DLL:
     - Home: DLL_home.md
     - "Custom Status Effects": DLL_customstatuses.md
@@ -84,9 +86,6 @@ markdown_extensions:
       url_download: true
   - admonition
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list

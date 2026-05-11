@@ -2,9 +2,9 @@ site_name: Mewgenics Modding Documentation
 site_url: https://mewgenicsmoddingdocs
 
 nav:
-  - Home: _index.md
+  - Home: index.md
   - Docs:
-    - Home: _index.md
+    - Home: index.md
     - "Getting Started": _index_gettingstarted.md
     - "Commands": _index_commands.md
     - "GON Overview": GONOverview.md

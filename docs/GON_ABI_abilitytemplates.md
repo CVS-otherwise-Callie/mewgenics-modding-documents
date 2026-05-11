@@ -91,13 +91,15 @@ Anywhere iside the ability structure variables can be used to make certain stats
 | lck | int | The character's luck |
 | X | int | Value based on what is put in X_is |
 
+###### This is a subsection of ability_templates.
+
 ## Ability Templates
 
 ### template_move () {: aria-label='GON' }
 
 Basic template for moving to a tile.
 
-???- example template_move Code
+???- example "template_move Code"
     ```txt
         template_move {
             class MoveAbility
@@ -139,7 +141,7 @@ Basic template for moving to a tile.
 
 Basic template for teleporting to a tile.
 
-???- example template_teleport Code
+???- example "template_teleport Code"
     ```txt
         template_teleport {
             class TeleportAbility
@@ -180,7 +182,7 @@ Basic template for teleporting to a tile.
 
 Basic template for swapping with an entity on a tile.
 
-???- example template_swap Code
+???- example "template_swap Code"
     ```txt
         template_swap {
             class SwapperAbility
@@ -221,7 +223,7 @@ Basic template for swapping with an entity on a tile.
 
 Basic template for attacking a tile.
 
-???- example template_melee_attack Code
+???- example "template_melee_attack Cod"e
     ```txt
         template_melee_attack {
             class MeleeAttackAbility
@@ -253,13 +255,4 @@ Basic template for attacking a tile.
                 incidentally_collects_pickups true
             }
         }
-    ```
-
-### template_move () {: aria-label='GON' }
-
-Basic template for moving to a tile.
-
-???- example template_move Code
-    ```txt
-        
     ```

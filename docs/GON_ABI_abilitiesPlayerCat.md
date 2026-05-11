@@ -17,7 +17,7 @@ Each ability overview contains the title, a description, and it's base code.
 
 Trample over to a tile with meat on it.
 
-???- code Hog Rush Code
+???- code "Hog Rush Code"
     ```txt
         HogRush {
             template move

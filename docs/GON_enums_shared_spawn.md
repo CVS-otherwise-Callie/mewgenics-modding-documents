@@ -7,9 +7,8 @@ tags:
 
 ???+ info 
     These variables can be used in the following objects:
-    ???- info
-        - Abilities
-        - Ability_Templates 
+    - Abilities
+    - Ability_Templates 
 
 | Field Name | Input Type | Description |
 |:--|:--|:--|

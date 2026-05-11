@@ -73,13 +73,13 @@ function getRecentList() {
 }
 
 function buildContentMap() {
-    if (!$("h6").first().text().includes("Class ")) {
+    if (!$("h6").first().text().includes("subsection of")) {
         //only build map on class-related pages
         return;
     }
     var mapObj = $("<div class=\"contentMap\"><h2 class=\"overviewHeader\">Content Overview</h2><table class=\"contentTable\" id=\"contentOverviewTable\"><thead><tr><th>Return value</th><th>Function</th></tr></thead><tbody></tbody></table><hr/></div>");
     if ($("#class-diagram").length == 0) {
-        mapObj.insertBefore($(".md-content__inner").find("h2").first());
+        mapObj.insertAfter($(".md-content__inner").find("h2").first());
     } else {
         // insert content map after mermaid diagram
         mapObj.insertAfter($(".mermaidDiagram").first());

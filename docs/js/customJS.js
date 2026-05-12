@@ -73,7 +73,7 @@ function getRecentList() {
 }
 
 function buildContentMap() {
-    if (!$("h6").first().text().includes("subsection of")) {
+    if (!$("h1").first().text().includes("subsection of a")) {
         //only build map on class-related pages
         return;
     }

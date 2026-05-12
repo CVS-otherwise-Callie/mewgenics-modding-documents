@@ -35,8 +35,7 @@ nav:
   - Tools:
     - Home: TOOLS_home.md
     - "Templates": 
-      - "GON": TOOLS_gontemplates.md
-      - "FLA": TOOLS_flatemplates.md
+      - "Mod Templates": TOOLS_modtemplates.md
   - DLL:
     - Home: DLL_home.md
     - "Custom Status Effects": DLL_customstatuses.md

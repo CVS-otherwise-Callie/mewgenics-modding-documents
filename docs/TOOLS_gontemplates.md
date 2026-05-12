@@ -1,6 +1,6 @@
 ---
 tags:
-  - SWF
+  - GON
   - Tools
 ---
 # GON Example Templates

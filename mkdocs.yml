@@ -16,11 +16,11 @@ nav:
           - "AOE Restrictions": GON_enums_abilities_aoe_restrictions.md
           - "Cost": GON_enums_abilities_cost.md
           - "Item Slots": GON_enums_abilities_itemslots.md
-          - "Restrictions": GON_enums_restrictions_cost.md
-          - "Sounds": GON_enums_sounds.md
+          - "Restrictions": GON_enums_abilities_restrictions_cost.md
+          - "Sounds": GON_enums_abilities_sounds.md
         - "Meta": 
           - "Elements": GON_enums_meta_elements.md
-          - "Stats": GON_enums_stats.md
+          - "Stats": GON_enums_meta_stats.md
         - "Shared":
           - "Damage": GON_enums_shared_damage.md
           - "Graphics": GON_enums_shared_graphics.md
